@@ -280,9 +280,13 @@ border: none;
     padding: 120px 0;
 }
 
-.portfolio-container {
+.app {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+}
+
+.portfolio-container {
+    
     border-top: none;
 }
 
