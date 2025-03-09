@@ -135,6 +135,8 @@ img {
 }
 .main {
     background: #2e2f42;
+    max-width: 100%;
+    padding: 188px 472px;
 }
 .slogan {
     font-weight: 700;
@@ -143,7 +145,11 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+max-width: 496px;
+margin: 0 auto;
+
 }
+
 .button-main {
     font-weight: 500;
 font-size: 16px;
@@ -151,6 +157,9 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 background: #4d5ae5;
+max-width: 169px;
+padding: 16px 32px;
+
 }
 .title {
     font-weight: 500;
