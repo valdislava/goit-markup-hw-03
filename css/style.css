@@ -134,7 +134,7 @@ section {
 .main {
     background: #2e2f42;
     max-width: 100%;
-    padding: 188px 472px;
+    padding: 188px 0;
 }
 .slogan {
     font-weight: 700;
@@ -155,10 +155,10 @@ letter-spacing: 0.04em;
 color: #fff;
 background: #4d5ae5;
 border-radius: 4px;
-
-width: 169px;
+min-width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+border: none;
 }
 
 /* endmain */
@@ -178,7 +178,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .strategy {
-    padding: 120px 156px;
+    padding: 120px;
 }
 
 .strategy-list {
@@ -226,12 +226,13 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         
 .userpic {
     background: #f4f4fd;
+    padding: 120px 0
 }
     
 .userpic-list {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 24px;
     justify-content: center;
 }
 
@@ -244,7 +245,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     color: #2e2f42;
     text-transform: capitalize;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .headline {
@@ -256,7 +257,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     color: #2e2f42;
     gap: 8px;
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .desk {
@@ -268,10 +269,23 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     color: #434455;
     gap: 8px;
 }
+.name {
+    padding: 32px 0;
+}
 
 /* endsection2 */
 
-/* section3 */
+/* section3 */ 
+.portfolio {
+    padding: 120px 0;
+}
+
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .headline-one {
     font-weight: 500;
     font-size: 20px;
@@ -279,7 +293,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     padding-left: 16px;
 }
 
@@ -297,6 +311,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    row-gap: 48px;
     gap: 24px;
 }
 
@@ -322,7 +337,8 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .footer-logo {
-    
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .text-footer {
     font-weight: 400;
