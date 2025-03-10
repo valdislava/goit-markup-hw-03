@@ -281,12 +281,9 @@ border: none;
 }
 
 .app {
-    border-top: none; 
-}
-
-.portfolio-container {
+    border-top: none;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc; 
 }
 
 .headline-one {
@@ -314,14 +311,12 @@ border: none;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    row-gap: 48px;
-    gap: 24px;
+    gap: 48px 24px;
 }
 
 .img {
     width: calc((100% - 24px * 2) / 3);
-    height: 420px;
-}
+}}
 /* endsection3 */
 
 /* footer */
